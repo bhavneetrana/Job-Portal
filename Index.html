@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/"><img src="images/Job-portal-logo.jpg"; alt="logo"; class="shadow-img"></a>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/jobs">Job Listings</a></li>
+            <li><a href="../search_&_filter/Index.html">Post a Job</a></li>
+            <li><a href="/login">Sign In</a></li>
+            <li><a href="../Form/index.html">Register</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search jobs..." />
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+<!---->
+<div class="slider">
+    <div class="slides">
+        <img src="../Navbar/Images/job_portal_1.png" class="slide" alt="Image 1">
+        <img src="../Navbar/Images/job_portal_2.png" class="slide" alt="Image 2">
+        <img src="../Navbar/Images/job_portal_1.png" class="slide" alt="Image 3">
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+<footer class="footer">
+    <p>My Footer</p>
+    <!-- Add more footer items here -->
+</footer>
+<script src="index.js"></script>
+</body>
+</html>

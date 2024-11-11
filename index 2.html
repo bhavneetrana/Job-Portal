@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+<div class="container">
+    <div class="form-head"> <h2>Job Portal Registration</h2>
+        <h2> <a href="../Navbar/index.html">Home</a></h2> </div>
+
+    <form action="/submit_registration" method="POST">
+        <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="role">Role</label>
+            <select id="role" name="role" required>
+                <option value="job_seeker">Job Seeker</option>
+                <option value="employer">Employer</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>

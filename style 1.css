@@ -1,0 +1,66 @@
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Filters Section */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filter-item {
+    flex: 1;
+    min-width: 180px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Job Listings Section */
+.job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.job-card {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h5 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.job-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
